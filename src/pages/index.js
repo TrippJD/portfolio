@@ -11,11 +11,6 @@ import Bar from "../components/bar/bar"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-    </form>
     <Header />
     <Intro />
     <Headline />
