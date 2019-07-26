@@ -1,7 +1,7 @@
 ```sh
-<h1 align="center">
-  Jd Tripp's Portfolio
-</h1>
+
+##  Jd Tripp's Portfolio
+
 ```
 
 **`/node_modules`**
