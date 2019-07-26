@@ -2,7 +2,7 @@
 
 ```
 
-## Jd Tripp's Portfolio 🚀 🚀
+## Jd Tripp's Portfolio 🚀 🚀 🚀
 
 ```sh
 
