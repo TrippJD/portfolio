@@ -29,7 +29,7 @@ export default class Form extends React.Component {
                 className="formm"
                 method="post"
                 name="contact"
-                action="/success"
+                action="/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field">
                 <input type="hidden" name="bot-field" />
