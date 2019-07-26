@@ -27,12 +27,9 @@ export default class Form extends React.Component {
             <div className="formm-div">
               <form
                 className="formm"
-                method="post"
                 name="contact"
-                action="/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field">
-                <input type="hidden" name="bot-field" />
+                method="post"
+                action="/success">
                 <input type="hidden" name="form-name" value="contact" />
 
                 <label htmlFor="name">
@@ -61,3 +58,12 @@ export default class Form extends React.Component {
     )
   }
 }
+
+/* <form
+className="formm"
+method="post"
+name="contact"
+action="/success"
+data-netlify="true"
+data-netlify-honeypot="bot-field">
+<input type="hidden" name="bot-field" /> */
