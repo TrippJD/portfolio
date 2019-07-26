@@ -1,0 +1,49 @@
+/* modal --------------------------------- */
+/* Modal container */
+.styles_modal__gNwvD {
+  border-radius: 10px;
+}
+.styles_modalCenter__L9F2w {
+  background-color: rgb(247, 187, 76);
+}
+
+.modal-div {
+  min-width: 200px;
+  min-height: 200px;
+}
+/* modal END ------------------------------ */
+
+/* modal button --------------------------- */
+.modal-button {
+  /* color: rgb(221, 144, 71); */
+  border-radius: 20px;
+  width: 17vw;
+  font-size: 2.5vw;
+  padding: 3px;
+  background-color: rgb(221, 144, 71);
+  margin: 5px 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
+  border: 2px solid rgba(0, 0, 0, 0.267);
+}
+/* modal button END ----------------------- */
+
+/* form ----------------------------------- */
+.formm input:not([value="Clear"]),
+.formm button,
+.formm textarea {
+  width: 100%;
+}
+
+.formm input[value="Clear"] {
+  margin-top: 20px;
+  margin-left: 89.33%;
+}
+
+.formm-div {
+  background-color: rgba(133, 133, 133, 0.062);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.308);
+  background-color: rgb(255, 255, 255);
+}
+/* form END ------------------------------- */

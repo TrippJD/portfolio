@@ -8,6 +8,52 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* added mine here-------------------------------------*/
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(../images/backpattern.png);
+  background-attachment: fixed;
+
+  /* background-color: #12567a;
+  background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png"); */
+
+  /* background-image: url(../images/backg.jpg); */
+  /* background-size: cover; */
+  /* background-size: 100vw auto; */
+}
+
+/* nav------ */
+.nav {
+  text-align: right;
+  background-color: rgb(48, 48, 48);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+/* nav-end------ */
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 5px 0;
+  text-align: center;
+  background-color: rgb(48, 48, 48);
+}
+footer h3 {
+  font-style: italic;
+  padding: 6px 0px;
+  font-size: 1.6vw;
+  color: rgb(160, 160, 160);
+}
+/* end--------------------------------------------------*/
+
 article,
 aside,
 details,
@@ -62,7 +108,7 @@ dfn {
 }
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
 }
 mark {
   background-color: #ff0;
@@ -218,7 +264,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 h1 {
   margin-left: 0;
@@ -228,7 +274,7 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -245,7 +291,7 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -262,7 +308,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -279,7 +325,7 @@ h4 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -296,7 +342,7 @@ h5 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -313,7 +359,7 @@ h6 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -384,7 +430,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 figure {
   margin-left: 0;

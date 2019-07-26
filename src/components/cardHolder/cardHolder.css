@@ -1,0 +1,74 @@
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* card----------------------------------------------------- */
+.card {
+  position: relative;
+  max-width: 45vw;
+  margin-top: 4vmin;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.658);
+}
+
+/* shadow on hover */
+.card:hover {
+  box-shadow: 8px 8px 10px rgba(5, 5, 5, 0.658);
+}
+
+/* dim img on hover */
+.card-img {
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+.card:hover .card-img {
+  filter: brightness(60%);
+}
+
+/* border on hover */
+.card-div {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease-out;
+  border: 0.1px solid rgba(0, 0, 0, 0.644);
+}
+.card-div:hover {
+  border: 10px solid rgb(255, 185, 80);
+}
+/* card end----------------------------------------------- */
+
+/* card text---------------------------------------------- */
+.card-text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  height: calc(100% - 3rem);
+  width: calc(100% - 3rem);
+  text-align: center;
+  z-index: 2;
+  transform: scale(0.96) translateX(-50%) translateY(-50%) translateZ(2rem);
+  transition: all 0.8s cubic-bezier(0.42, 0, 0, 1);
+  opacity: 0;
+}
+.card:hover .card-text-container {
+  opacity: 1;
+  transform: scale(1) translateX(-50%) translateY(-50%) translateZ(2rem);
+}
+
+.card-text-container h1 {
+  color: #f0f0f0;
+  padding-top: 25%;
+  font-family: "Vollkorn", serif;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.card-text-container p {
+  color: #f0f0f0;
+  padding-top: 40px;
+  font-family: sans-serif;
+}
