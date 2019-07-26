@@ -1,8 +1,8 @@
 ```sh
 
-##  Jd Tripp's Portfolio
-
 ```
+
+## Jd Tripp's Portfolio
 
 **`/node_modules`**
 
