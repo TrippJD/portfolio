@@ -1,6 +1,6 @@
 .form input:not([value="Clear"]),
-button,
-textarea {
+.form button,
+.form textarea {
   width: 100%;
 }
 

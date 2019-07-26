@@ -6,6 +6,7 @@ const About = ({ location }) => (
   <Layout location={location}>
     <div
       style={{
+        marginTop: "30vh",
         backgroundColor: "rgba(0, 0, 0, 0.1)",
         borderRadius: "5px",
         padding: "20px",
