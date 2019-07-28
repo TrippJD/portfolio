@@ -2,11 +2,11 @@
 
 .intro-div {
   text-align: center;
-  padding: 3vw 10vw;
+  padding: 3vw 3vw 3vw 12vw;
   background-color: rgb(18, 85, 112);
   border-radius: 200px 0px 200px 0px;
   /* box-shadow: 10px 10px 10px; */
-  margin: 25px 2vmin;
+  margin: 2.3vw 2vmin;
   border: 1px solid rgb(18, 85, 112);
 }
 

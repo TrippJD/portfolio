@@ -37,7 +37,7 @@
   border: 0.1px solid rgba(0, 0, 0, 0.644);
 }
 .card-div:hover {
-  border: 10px solid rgb(255, 185, 80);
+  border: 1vw solid rgb(255, 185, 80);
 }
 /* card end----------------------------------------------- */
 
@@ -46,10 +46,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 100%;
-  width: 100%;
-  height: calc(100% - 3rem);
-  width: calc(100% - 3rem);
+  height: 80%;
+  width: 80%;
   text-align: center;
   z-index: 2;
   transform: scale(0.96) translateX(-50%) translateY(-50%) translateZ(2rem);
@@ -62,13 +60,16 @@
 }
 
 .card-text-container h1 {
+  font-size: 4vw;
   color: #f0f0f0;
-  padding-top: 25%;
+  margin-top: 25%;
   font-family: "Vollkorn", serif;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .card-text-container p {
+  font-size: 2vw;
+  line-height: 3vw;
   color: #f0f0f0;
-  padding-top: 40px;
+  margin-top: 2vw;
   font-family: sans-serif;
 }

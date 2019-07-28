@@ -1,0 +1,328 @@
+/* bar styling ----------------------------------- */
+.bar {
+  /* background-color: orange; */
+  background: linear-gradient(
+    180deg,
+    rgb(252, 234, 204) 0%,
+    rgb(255, 216, 164) 6%,
+    rgba(255, 164, 8, 1) 61%,
+    rgb(255, 162, 0) 100%
+  );
+  box-shadow: 2px 1px 2px rgba(31, 31, 31, 0.336);
+  width: 4.5vw;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  border: 1px solid orange;
+  height: 0;
+  border-radius: 3px;
+}
+.bar:before {
+  position: absolute;
+  font: 1.5vw Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  transform: rotate(-35deg);
+}
+.bar:after {
+  content: "";
+  background-image: url("../../images/javascript.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 4.8vw;
+  width: 4.8vw;
+  position: absolute;
+  bottom: -6vw;
+  transform: rotate(35deg);
+}
+
+.bar1 {
+  left: 1vw;
+}
+.bar1.bar-ani {
+  animation: showBar1 1.2s 0.3s forwards;
+}
+.bar1:before {
+  content: "JavaScript";
+  left: -0.8vw;
+  top: -4.6vw;
+}
+.bar1:after {
+  background-image: url("../../images/javascript.png");
+}
+
+.bar2 {
+  left: 7vw;
+}
+.bar2.bar-ani {
+  animation: showBar2 1.2s 0.5s forwards;
+}
+.bar2:before {
+  content: "CSS";
+  left: -0.4vw;
+  top: -3.3vw;
+}
+.bar2:after {
+  background-image: url("../../images/css.png");
+}
+
+.bar3 {
+  left: 13vw;
+}
+.bar3.bar-ani {
+  animation: showBar3 1.2s 0.6s forwards;
+}
+.bar3:before {
+  content: "HTML5";
+  left: -0.4vw;
+  top: -3.6vw;
+}
+.bar3:after {
+  background-image: url("../../images/HTML5.png");
+}
+
+.bar4 {
+  left: 19vw;
+}
+.bar4.bar-ani {
+  animation: showBar4 1.2s 0.7s forwards;
+}
+.bar4:before {
+  content: "React";
+  left: -0.4vw;
+  top: -3.6vw;
+}
+.bar4:after {
+  background-image: url("../../images/react.png");
+}
+
+.bar5 {
+  left: 25vw;
+}
+.bar5.bar-ani {
+  animation: showBar5 1.2s 0.8s forwards;
+}
+.bar5:before {
+  content: "NodeJS";
+  left: -0.5vw;
+  top: -4.1vw;
+}
+.bar5:after {
+  background-image: url("../../images/nodejs.png");
+  background-size: contain;
+  height: 4.8vw;
+  width: 4.8vw;
+  bottom: -6vw;
+  transform: rotate(45deg);
+}
+
+.bar6 {
+  left: 31vw;
+}
+.bar6.bar-ani {
+  animation: showBar6 1.2s 0.9s forwards;
+}
+.bar6:before {
+  content: "Gatsby";
+  left: -0.4vw;
+  top: -3.8vw;
+}
+.bar6:after {
+  background-image: url("../../images/gatsby.png");
+}
+
+.bar7 {
+  left: 37vw;
+}
+.bar7.bar-ani {
+  animation: showBar7 1.2s 1s forwards;
+}
+.bar7:before {
+  content: "SQL";
+  left: -0.4vw;
+  top: -3.3vw;
+}
+.bar7:after {
+  background-image: url("../../images/sql.png");
+}
+
+.bar8 {
+  left: 43vw;
+}
+.bar8.bar-ani {
+  animation: showBar8 1.2s 1.1s forwards;
+}
+.bar8:before {
+  content: "GraphQL";
+  left: -0.8vw;
+  top: -4.3vw;
+}
+.bar8:after {
+  background-image: url("../../images/graphql.png");
+}
+
+.bar9 {
+  left: 49vw;
+}
+.bar9.bar-ani {
+  animation: showBar9 1.2s 1.2s forwards;
+}
+.bar9:before {
+  content: "NPM";
+  left: -0.4vw;
+  top: -3.3vw;
+}
+.bar9:after {
+  background-image: url("../../images/npm.png");
+}
+
+.bar10 {
+  left: 55vw;
+}
+.bar10.bar-ani {
+  animation: showBar10 1.2s 1.3s forwards;
+}
+.bar10:before {
+  content: "JSON";
+  left: -0.45vw;
+  top: -3.5vw;
+}
+.bar10:after {
+  background-image: url("../../images/json.png");
+}
+
+.bar11 {
+  left: 61vw;
+}
+.bar11.bar-ani {
+  animation: showBar11 1.2s 1.4s forwards;
+}
+.bar11:before {
+  content: "GIT";
+  left: -0.4vw;
+  top: -3.3vw;
+}
+.bar11:after {
+  background-image: url("../../images/github.png");
+}
+
+/* bar styling end ------------------------------- */
+
+/* bar container --------------------------------- */
+.graph {
+  width: 80vw;
+  height: 40vw;
+  position: relative;
+  margin: 10% auto;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  /* transform: translate(0, -50%); */
+}
+.graph:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+}
+.graph:after {
+  content: "";
+  width: 100%;
+  height: 50%;
+  background: transparent;
+  position: absolute;
+  top: 25%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  right: 0;
+}
+/* bar container end ----------------------------- */
+
+@keyframes showBar1 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 90%;
+  }
+}
+@keyframes showBar2 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 90%;
+  }
+}
+@keyframes showBar3 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes showBar4 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 85%;
+  }
+}
+@keyframes showBar5 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 70%;
+  }
+}
+@keyframes showBar6 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 85%;
+  }
+}
+@keyframes showBar7 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 65%;
+  }
+}
+@keyframes showBar8 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 50%;
+  }
+}
+@keyframes showBar9 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 70%;
+  }
+}
+@keyframes showBar10 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 75%;
+  }
+}
+@keyframes showBar11 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 55%;
+  }
+}

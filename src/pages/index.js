@@ -6,7 +6,7 @@ import Header from "../components/header/header"
 import Intro from "../components/intro/intro"
 import Headline from "../components/headline/headline"
 import CardHolder from "../components/cardHolder/cardHolder"
-import Bar from "../components/bar/bar"
+import Graph from "../components/graph/graph"
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +15,7 @@ const IndexPage = () => (
     <Intro />
     <Headline />
     <CardHolder />
-    <Bar />
+    <Graph />
   </Layout>
 )
 

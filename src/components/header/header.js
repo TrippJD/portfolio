@@ -12,7 +12,6 @@ function Header() {
         backgroundImage: `url(${HeaderImage})`,
       }}
       id="header">
-      <h1>header</h1>
       <div className="headerTextDiv">
         <h2 id="headerText">
           <TextLoop

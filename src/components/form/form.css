@@ -1,27 +1,28 @@
 /* modal --------------------------------- */
 /* Modal container */
 .styles_modal__gNwvD {
-  border-radius: 10px;
+  border-radius: 1vw;
 }
 .styles_modalCenter__L9F2w {
   background-color: rgb(247, 187, 76);
 }
 
 .modal-div {
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 150px;
+  min-height: 150px;
 }
 /* modal END ------------------------------ */
 
 /* modal button --------------------------- */
 .modal-button {
   /* color: rgb(221, 144, 71); */
-  border-radius: 20px;
+  border-radius: 2vw;
   width: 17vw;
+  line-height: 2.8vw;
   font-size: 2.5vw;
-  padding: 3px;
+  padding: 0.3vw;
   background-color: rgb(221, 144, 71);
-  margin: 5px 20px;
+  margin: 0.5vw 2vw;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
   border: 2px solid rgba(0, 0, 0, 0.267);
 }
@@ -35,14 +36,15 @@
 }
 
 .formm input[value="Clear"] {
-  margin-top: 20px;
-  margin-left: 89.33%;
+  margin-top: 2vw;
+  margin-left: 80%;
+  display: none;
 }
 
 .formm-div {
   background-color: rgba(133, 133, 133, 0.062);
-  padding: 10px;
-  border-radius: 10px;
+  padding: 1vw;
+  border-radius: 1vw;
   box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.308);
   background-color: rgb(255, 255, 255);
 }
