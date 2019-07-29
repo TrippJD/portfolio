@@ -1,10 +1,58 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./cardHolder.css"
 import Brain from "../../images/brain.png"
 import Farm from "../../images/farm.png"
 import Blog from "../../images/blog.png"
 
 function CardHolder() {
+  useEffect(() => {
+    const divs = document.querySelectorAll(
+      ".card, .card-img, .card-div, .card-text-container"
+    )
+    // console.log(divs)
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          console.log(entry)
+          if (
+            entry.intersectionRatio >= 0.5 &&
+            entry.target.className === "card"
+          ) {
+            entry.target.classList.add("ani-shadow")
+          } else if (
+            entry.intersectionRatio >= 0.5 &&
+            entry.target.className === "card-div"
+          ) {
+            entry.target.classList.add("ani-border")
+          } else if (
+            entry.intersectionRatio >= 0.5 &&
+            entry.target.className === "card-img"
+          ) {
+            entry.target.classList.add("ani-brightness")
+          } else if (
+            entry.intersectionRatio >= 0.5 &&
+            entry.target.className === "card-text-container"
+          ) {
+            entry.target.classList.add("ani-container")
+          } else {
+            entry.target.classList.remove(
+              "ani-shadow",
+              "ani-border",
+              "ani-brightness",
+              "ani-container"
+            )
+          }
+        })
+      },
+      { threshold: 0.5 }
+    )
+
+    divs.forEach(div => {
+      observer.observe(div)
+    })
+  })
+
   return (
     <div className="cardHolder">
       <a
@@ -68,3 +116,16 @@ function CardHolder() {
 }
 
 export default CardHolder
+
+// const observer = new IntersectionObserver(
+//   entries => {
+//     entries.forEach(entry => {
+//       if (entry.intersectionRatio >= 0.5 && <div class="card"></div>) {
+//         entry.target.classList.add("ani-shadow")
+//       } else {
+//         entry.target.classList.remove("ani-shadow")
+//       }
+//     })
+//   },
+//   { threshold: 0.5 }
+// )
