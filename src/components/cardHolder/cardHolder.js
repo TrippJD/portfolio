@@ -9,7 +9,6 @@ function CardHolder() {
     const divs = document.querySelectorAll(
       ".card, .card-img, .card-div, .card-text-container"
     )
-    // console.log(divs)
 
     const observer = new IntersectionObserver(
       entries => {
@@ -116,16 +115,3 @@ function CardHolder() {
 }
 
 export default CardHolder
-
-// const observer = new IntersectionObserver(
-//   entries => {
-//     entries.forEach(entry => {
-//       if (entry.intersectionRatio >= 0.5 && <div class="card"></div>) {
-//         entry.target.classList.add("ani-shadow")
-//       } else {
-//         entry.target.classList.remove("ani-shadow")
-//       }
-//     })
-//   },
-//   { threshold: 0.5 }
-// )
