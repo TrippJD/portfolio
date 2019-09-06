@@ -1,8 +1,11 @@
 import React from "react"
 import "./headline.css"
 
-function Headline() {
-  return <h1 className="headline">Previous Projects</h1>
+export function Headline1() {
+  return <h1 className="headline1">Previous Projects</h1>
+}
+export function Headline2() {
+  return <h1 className="headline2">Tech Skills</h1>
 }
 
-export default Headline
+// export default Headline1

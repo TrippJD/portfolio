@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 
 import Header from "../components/header/header"
 import Intro from "../components/intro/intro"
-import Headline from "../components/headline/headline"
+import { Headline1, Headline2 } from "../components/headline/headline"
 import CardHolder from "../components/cardHolder/cardHolder"
 import Graph from "../components/graph/graph"
 
@@ -13,8 +13,9 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Header />
     <Intro />
-    <Headline />
+    <Headline1 />
     <CardHolder />
+    <Headline2 />
     <Graph />
   </Layout>
 )

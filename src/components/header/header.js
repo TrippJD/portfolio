@@ -1,9 +1,9 @@
 import React from "react"
 import "./header.css"
-// import HeaderImage from "./headerImage"
 import TextLoop from "react-text-loop"
 
-import HeaderImage from "../../images/stars-header.jpg"
+import HeaderImage from "../../images/banner.jpg"
+// import HeaderImage from "../../images/stars-header.jpg"
 
 function Header() {
   return (
@@ -33,22 +33,3 @@ function Header() {
 }
 
 export default Header
-
-// const divs = document.querySelectorAll("div");
-
-// const observer = new IntersectionObserver(
-//   entries => {
-//     entries.forEach(entry => {
-//       if (entry.intersectionRatio >= 0.5) {
-//         entry.target.classList.remove("dim");
-//       } else {
-//         entry.target.classList.add("dim");
-//       }
-//     });
-//   },
-//   { threshold: 0.5 }
-// );
-
-// divs.forEach(div => {
-//   observer.observe(div);
-// });

@@ -2,16 +2,10 @@
 
 #header {
   z-index: 20;
-  height: 40vw;
+  height: 34vw;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100vw 40vw;
-}
-
-.try {
-  opacity: 0;
-  background-color: black;
-  border: 5px solid black;
+  background-size: 100vw;
 }
 
 .headerTextDiv {
@@ -28,7 +22,8 @@
   text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
     4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
   font-size: 7.5vw;
-  display: inline-block;
+  display: none;
+  /* display: inline-block; */
   font-family: "Varela Round", sans-serif;
   font-weight: 700;
 }

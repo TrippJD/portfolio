@@ -16,13 +16,6 @@ body {
   flex-direction: column;
   background-image: url(../images/backpattern.png);
   background-attachment: fixed;
-
-  /* background-color: #12567a;
-  background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png"); */
-
-  /* background-image: url(../images/backg.jpg); */
-  /* background-size: cover; */
-  /* background-size: 100vw auto; */
 }
 
 /* nav------ */
@@ -48,6 +41,7 @@ footer {
 }
 footer h3 {
   font-style: italic;
+  font-weight: 600;
   padding: 6px 0px;
   font-size: 1.6vw;
   color: rgb(160, 160, 160);

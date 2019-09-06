@@ -21,10 +21,17 @@
   line-height: 2.8vw;
   font-size: 2.5vw;
   padding: 0.3vw;
-  background-color: rgb(221, 144, 71);
+  /* background-color: rgb(221, 144, 71); */
+  background-color: rgb(236, 172, 76);
   margin: 0.5vw 2vw;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
   border: 2px solid rgba(0, 0, 0, 0.267);
+  transition: all 0.1s ease-in-out;
+}
+.modal-button:hover {
+  transform: scale(1.015);
+  opacity: 0.9;
+  border: 2px solid rgba(255, 255, 255, 0.267);
 }
 /* modal button END ----------------------- */
 
@@ -47,5 +54,11 @@
   border-radius: 1vw;
   box-shadow: 5px 5px 5px rgba(48, 48, 48, 0.308);
   background-color: rgb(255, 255, 255);
+}
+
+.send-button {
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 5px;
 }
 /* form END ------------------------------- */
