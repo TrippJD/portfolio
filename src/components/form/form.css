@@ -15,13 +15,12 @@
 
 /* modal button --------------------------- */
 .modal-button {
-  /* color: rgb(221, 144, 71); */
-  border-radius: 2vw;
+  border-radius: 20px;
   width: 17vw;
+  max-height: 40px;
   line-height: 2.8vw;
   font-size: 2.5vw;
   padding: 0.3vw;
-  /* background-color: rgb(221, 144, 71); */
   background-color: rgb(236, 172, 76);
   margin: 0.5vw 2vw;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
@@ -33,18 +32,23 @@
   opacity: 0.9;
   border: 2px solid rgba(255, 255, 255, 0.267);
 }
+@media screen and (min-width: 970px) {
+  .modal-button {
+    font-size: 25px;
+    width: 175px;
+    line-height: 1;
+  }
+}
 /* modal button END ----------------------- */
 
 /* form ----------------------------------- */
-.formm input:not([value="Clear"]),
+.formm input,
 .formm button,
 .formm textarea {
   width: 100%;
 }
 
 .formm input[value="Clear"] {
-  margin-top: 2vw;
-  margin-left: 80%;
   display: none;
 }
 
@@ -57,6 +61,9 @@
 }
 
 .send-button {
+  background-color: #80d8ff;
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
   border-radius: 20px;
   height: 40px;
   margin-top: 5px;

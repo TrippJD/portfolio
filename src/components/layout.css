@@ -21,7 +21,7 @@ body {
 /* nav------ */
 .nav {
   text-align: right;
-  background-color: rgb(48, 48, 48);
+  background-color: rgba(48, 48, 48, 0);
   position: fixed;
   top: 0;
   z-index: 10;

@@ -1,37 +1,48 @@
-@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
-
 #header {
-  z-index: 20;
-  height: 40vw;
+  position: relative;
+  background-image: url(../../images/greyback11.jpg);
+  width: 100vw;
+  height: 60vw;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100% auto;
+  background-color: black;
 }
 
-.headerTextDiv {
+#header:before {
+  content: " ";
+  display: block;
   position: absolute;
-  top: 17vmin;
-  text-align: center;
-  z-index: 2;
+  top: 0;
+  left: 0;
   width: 100%;
-  color: #4bc4be;
-  overflow: hidden;
+  height: 100%;
+  background-image: url(../../images/greyback12.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: black;
+  opacity: 0.6;
+  animation: head 0.5s ease-out 1.5s 2 forwards;
 }
 
-.headerTextDiv * {
-  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
-    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
-  font-size: 7.5vw;
-  display: none;
-  /* display: inline-block; */
-  font-family: "Varela Round", sans-serif;
-  font-weight: 700;
+@keyframes head {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  85% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-/* .wordDiv {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-/* background: -webkit-linear-gradient(white, #38495a);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; */
