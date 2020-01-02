@@ -21,16 +21,15 @@
   line-height: 2.8vw;
   font-size: 2.5vw;
   padding: 0.3vw;
-  background-color: rgb(236, 172, 76);
+  background-color: rgb(255, 184, 77);
   margin: 0.5vw 2vw;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
-  border: 2px solid rgba(0, 0, 0, 0.267);
-  transition: all 0.1s ease-in-out;
+  border: none;
+  transition: all 0.2s ease-in-out;
 }
 .modal-button:hover {
-  transform: scale(1.015);
-  opacity: 0.9;
-  border: 2px solid rgba(255, 255, 255, 0.267);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.84);
+  background-color: rgb(254, 175, 57);
 }
 @media screen and (min-width: 970px) {
   .modal-button {

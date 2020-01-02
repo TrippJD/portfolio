@@ -10,6 +10,8 @@ body {
 }
 
 /* added mine here-------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Vollkorn:400i&display=swap");
+
 .site {
   display: flex;
   min-height: 100vh;

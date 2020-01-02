@@ -13,7 +13,6 @@ function CardHolder() {
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
-          console.log(entry)
           if (
             entry.intersectionRatio >= 0.5 &&
             entry.target.className === "card"
